@@ -1,4 +1,4 @@
-# Turtlebot autorace challenge 
+# Turtlebot2 autorace challenge 
 - Challengeing you to use the basic knowleage about ROS and Opencv to make turtlebot go to goal 
 ## Requirement
 - git clone https://gitlab.com/robotcitizens_training/kobuki_turtlebot2_package.git ~/Downloads/kobuki_turtlebot2_package
