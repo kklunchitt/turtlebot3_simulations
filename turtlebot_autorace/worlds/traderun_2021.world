@@ -137,15 +137,15 @@
       </spot>
     </light>
     <state world_name='default'>
-      <sim_time>442 562000000</sim_time>
-      <real_time>231 53485200</real_time>
-      <wall_time>1628512350 160349700</wall_time>
-      <iterations>171300</iterations>
+      <sim_time>527 678000000</sim_time>
+      <real_time>127 665768900</real_time>
+      <wall_time>1628513807 546635100</wall_time>
+      <iterations>85116</iterations>
       <model name='course'>
-        <pose>0 0 0 0 0 -3.14</pose>
+        <pose>0.178788 0.024494 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='course_link'>
-          <pose>0 0 0 0 0 -3.14</pose>
+          <pose>0.178788 0.024494 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -162,42 +162,42 @@
         </link>
       </model>
       <model name='mobile_base'>
-        <pose>-3.89755 -0.2301 -0.000342 -7.7e-05 -0.013773 1.61671</pose>
+        <pose>4.55001 0.282132 -0.000341 -8.1e-05 -0.013775 -1.60056</pose>
         <scale>1 1 1</scale>
         <link name='base_footprint'>
-          <pose>-3.89755 -0.2301 -0.000342 -7.7e-05 -0.013773 1.61671</pose>
-          <velocity>-0.000159 -0.000239 -0.000186 -0.001539 0.00124 -0.000209</velocity>
-          <acceleration>0.021031 0.005735 0.126515 -1.4111 -0.601627 -0.049792</acceleration>
-          <wrench>0.103498 0.028226 0.622617 0 -0 0</wrench>
+          <pose>4.55001 0.282132 -0.000341 -8.1e-05 -0.013775 -1.60056</pose>
+          <velocity>0.0002 0.000249 -0.000134 0.001018 -0.0012 -0.000235</velocity>
+          <acceleration>-0.02133 -0.001343 0.121995 1.52057 0.51888 0.507197</acceleration>
+          <wrench>-0.104969 -0.006612 0.600375 0 -0 0</wrench>
         </link>
         <link name='wheel_left_link'>
-          <pose>-4.01241 -0.235865 0.034989 -1.57105 -1.23104 1.61695</pose>
-          <velocity>-0.000116 -0.000161 -3.5e-05 -0.001539 0.00124 -0.000209</velocity>
-          <acceleration>0.229968 0.005316 1.06557 0.344109 -0.929397 0.103996</acceleration>
-          <wrench>0.0023 5.3e-05 0.010656 0 -0 0</wrench>
+          <pose>4.66498 0.279198 0.034989 -1.57098 -1.08147 -1.6004</pose>
+          <velocity>0.000157 0.000187 1e-06 0.001018 -0.0012 -0.000235</velocity>
+          <acceleration>-0.249492 -0.008928 1.02918 -0.032622 0.91553 0.096183</acceleration>
+          <wrench>-0.002495 -8.9e-05 0.010292 0 -0 0</wrench>
         </link>
         <link name='wheel_right_link'>
-          <pose>-3.78265 -0.225308 0.034988 -1.57096 1.0439 1.61657</pose>
-          <velocity>-0.000114 -0.000209 -0.000336 -0.001539 0.00124 -0.000209</velocity>
-          <acceleration>0.225777 0.071017 1.37432 0.583077 -0.950087 0.105469</acceleration>
-          <wrench>0.002258 0.00071 0.013743 0 -0 0</wrench>
+          <pose>4.43508 0.286042 0.034989 -1.571 1.13523 -1.60075</pose>
+          <velocity>0.000159 0.000241 -0.000267 0.001018 -0.0012 -0.000235</velocity>
+          <acceleration>-0.250563 -0.078513 1.29555 -0.288408 0.950488 0.097693</acceleration>
+          <wrench>-0.002506 -0.000785 0.012956 0 -0 0</wrench>
         </link>
       </model>
       <model name='traffic_left'>
-        <pose>1.10478 -0.893767 0.14936 0 -0 0</pose>
+        <pose>-3.43332 2.79353 0.14936 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='box'>
-          <pose>2.18479 -1.73177 0.27436 0 0 -1.57</pose>
+          <pose>-2.35332 1.95553 0.27436 0 0 -1.57</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='traffic_stop'>
-        <pose>0.127844 -3.35784 0.359048 0 0 -1.51613</pose>
+        <pose>0.748974 3.76745 0.359048 0 0 -1.51613</pose>
         <scale>1 1 1</scale>
         <link name='box'>
-          <pose>0.127844 -3.35784 0.359048 0 0 -1.51613</pose>
+          <pose>0.748974 3.76745 0.359048 0 0 -1.51613</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -218,7 +218,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>21.0125 -3.91964 6.17403 0 0.093801 3.09182</pose>
+        <pose>14.1054 1.13979 6.05102 0 0.481801 -2.95936</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -1277,55 +1277,6 @@
       </plugin>
       <pose>0 0 0 0 -0 0</pose>
     </model>
-    <model name='course'>
-      <static>1</static>
-      <link name='course_link'>
-        <collision name='course_collision'>
-          <geometry>
-            <plane>
-              <normal>0 0 1</normal>
-              <size>9 9</size>
-            </plane>
-          </geometry>
-          <surface>
-            <friction>
-              <ode>
-                <mu>100</mu>
-                <mu2>50</mu2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-          </surface>
-          <max_contacts>10</max_contacts>
-        </collision>
-        <visual name='course_visual'>
-          <cast_shadows>0</cast_shadows>
-          <geometry>
-            <plane>
-              <normal>0 0 1</normal>
-              <size>9 9</size>
-            </plane>
-          </geometry>
-          <material>
-            <script>
-              <uri>model://turtlebot3_autorace_2020/course/materials/scripts</uri>
-              <uri>model://turtlebot3_autorace_2020/course/materials/textures</uri>
-              <name>course</name>
-            </script>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose>0.178788 0.024494 0 0 -0 0</pose>
-    </model>
     <model name='traffic_stop'>
       <static>1</static>
       <link name='box'>
@@ -1413,6 +1364,55 @@
         <kinematic>0</kinematic>
       </link>
       <pose>1.24767 -0.779969 0 0 -0 0</pose>
+    </model>
+    <model name='course'>
+      <static>1</static>
+      <link name='course_link'>
+        <collision name='course_collision'>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>10 10</size>
+            </plane>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>100</mu>
+                <mu2>50</mu2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='course_visual'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>10 10</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://turtlebot3_autorace_2020/course/materials/scripts</uri>
+              <uri>model://turtlebot3_autorace_2020/course/materials/textures</uri>
+              <name>course</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>0.086375 -0.038409 0 0 -0 0</pose>
     </model>
   </world>
 </sdf>
