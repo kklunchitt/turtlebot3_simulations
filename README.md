@@ -1,5 +1,8 @@
 # Turtlebot2 autorace challenge 
-- Challengeing you to use the basic knowleage about ROS and Opencv to make turtlebot go to goal 
+- cd ~/ros_workshop_ws/src/
+- git clone https://github.com/kklunchitt/turtlebot3_simulations.git
+- cd ..
+- catkin_make
 
 ## How to run
 
