@@ -1,5 +1,6 @@
 # Turtlebot2 autorace challenge 
 - cd ~/ros_workshop_ws/src/
+- sudo apt install ros-noetic-turltebot3-msgs
 - git clone https://github.com/kklunchitt/turtlebot3_simulations.git
 - cd ..
 - catkin_make
